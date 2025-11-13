@@ -1,37 +1,34 @@
-# 🧰 Windows System Repair - Script de Reparo Automático
+# 🧰 Ferramenta de Reparo Automatico Windows (Batch)
 
-Utilitário em **Batch Script (.bat)** para diagnóstico e reparo automático de sistemas Windows.  
-Executa os principais comandos de manutenção: **DISM**, **SFC** e **CHKDSK**, gerando relatórios automáticos em arquivo de log.
+Script `.bat` para automação de tarefas de **diagnóstico e reparo automático de sistemas Windows**. (Executa **DISM**, **SFC** e **CHKDSK** em sequência, com geração de logs automáticos para análise técnica.)
 
----
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/cb70692f-0c24-4419-9739-57dd2129ca38" />
 
 ## ⚙️ Funcionalidades
-- 🩺 **DISM /RestoreHealth** — Repara a imagem do sistema.
-- 🧩 **SFC /scannow** — Verifica e restaura arquivos de sistema corrompidos.
-- 💽 **CHKDSK /f /r** — Analisa e corrige erros no disco.
-- 🧾 **Logs automáticos** com data e hora da execução.
-- 🛡️ **Verificação de privilégios administrativos**.
+- Reparo de imagem do sistema (DISM /RestoreHealth)  
+- Verificação e restauração de arquivos corrompidos (SFC /scannow)  
+- Verificação e correção de erros no disco (CHKDSK /f /r)  
+- Criação automática de logs com data e hora  
+- Verificação de privilégios administrativos antes da execução  
+- Mensagens guiadas durante o processo de reparo  
 
----
+## 🧩 Stack
+Batch Script • Windows CMD • Ferramentas nativas do sistema (DISM, SFC, CHKDSK)
 
-## 📂 Estrutura do Projeto
-Windows-System-Repair/
-│
-├── reparo_automatico.bat # Script principal
-├── logs/ # Pasta de logs gerados
-└── README.md # Documentação
+## 🧠 Objetivo
+Automatizar processos de reparo e diagnóstico do Windows, reduzindo a necessidade de intervenção manual e padronizando a manutenção de sistemas em ambiente corporativo ou de suporte técnico.
 
----
+## 📂 Estrutura
+`Windows-System-Repair/`
 
-## 🚀 Como usar
-1. Baixe ou clone este repositório:
-   ```bash
-   git clone https://github.com/seuusuario/Windows-System-Repair.git
+`/logs` `/evidencias` `/reparo_automatico.bat`
 
-🧠 Sobre o projeto
+## 📊 Evidências
+Capturas de tela e logs de execução disponíveis em `/evidencias/`.
 
-Desenvolvido por Vinícius Pereira – Analista de TI Jr.
-Focado em automação de manutenção, suporte técnico e infraestrutura de sistemas Windows.
+## 👨‍💻 Autor
+**Vinicius Pereira**  
 
-📧 Contato: LinkedIn
- | GitHub
+Analista de TI Júnior | Infraestrutura e Suporte Técnico  
+
+[LinkedIn](https://www.linkedin.com/in/viniciuspereira27/) | [GitHub](https://github.com/vinips04)

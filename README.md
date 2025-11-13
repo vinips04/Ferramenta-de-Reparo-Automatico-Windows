@@ -19,7 +19,7 @@ Batch Script • Windows CMD • Ferramentas nativas do sistema (DISM, SFC, CHKD
 Automatizar processos de reparo e diagnóstico do Windows, reduzindo a necessidade de intervenção manual e padronizando a manutenção de sistemas em ambiente corporativo ou de suporte técnico.
 
 ## 📂 Estrutura
-`Windows-System-Repair/`
+`Ferramenta-de-Reparo-Windows/`
 
 `/logs` `/evidencias` `/reparo_automatico.bat`
 

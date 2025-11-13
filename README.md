@@ -1,4 +1,4 @@
-# 🧰 Ferramenta de Reparo Automatico Windows (Batch)
+# 🧰 Ferramenta de Reparo Automatico Windows (.bat)
 
 Script `.bat` para automação de tarefas de **diagnóstico e reparo automático de sistemas Windows**. (Executa **DISM**, **SFC** e **CHKDSK** em sequência, com geração de logs automáticos para análise técnica.)
 

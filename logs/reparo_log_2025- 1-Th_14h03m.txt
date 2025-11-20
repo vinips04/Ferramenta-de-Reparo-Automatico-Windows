@@ -1,0 +1,8 @@
+[DISM - Thu 11/20/2025 14:03:33.32] 
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+Image Version: 10.0.26200.7171
+
+^C
